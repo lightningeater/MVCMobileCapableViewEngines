@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ddbb6168-d166-4564-bf8a-d3289e836477" name="BMiller@COEUS 2011-05-07 09:12:07" runUser="SITEWIRE\BMiller" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="60bafb3d-916d-49fd-9e7a-015d43df3be4">
+    <Deployment runDeploymentRoot="BMiller_COEUS 2011-05-07 09_12_07">
+      <DeploymentItem filename="C:\Users\bmiller\ASP.NET-MVC-Mobile-Capable-View-Engines\packages\Moq.4.0.10827\lib\NET40\Moq.dll" />
+      <DeploymentItem filename="C:\Users\bmiller\ASP.NET-MVC-Mobile-Capable-View-Engines\Application.MVCExtensions\bin\Debug\Application.MVCExtensions.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-05-07T09:12:07.9489901-07:00" queuing="2011-05-07T09:12:09.2311183-07:00" start="2011-05-07T09:12:09.2931245-07:00" finish="2011-05-07T09:12:10.6872639-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="10" executed="10" passed="10" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="FindViewReturnsSharedMobileViewPath" storage="c:\users\bmiller\asp.net-mvc-mobile-capable-view-engines\application.mvcextensions.tests\bin\debug\application.mvcextensions.tests.dll" id="db02e4c0-2982-25e2-7b8b-b5c6d6cb128a">
+      <Execution id="19f956bc-71e4-48aa-bc12-631586b99bef" />
+      <TestMethod codeBase="C:/Users/bmiller/ASP.NET-MVC-Mobile-Capable-View-Engines/Application.MVCExtensions.Tests/bin/Debug/Application.MVCExtensions.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Application.MVCExtensions.Tests.MobileCapableRazorViewEngineFixture, Application.MVCExtensions.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindViewReturnsSharedMobileViewPath" />
+    </UnitTest>
+    <UnitTest name="FindViewReturnsSpecificMobileViewPath" storage="c:\users\bmiller\asp.net-mvc-mobile-capable-view-engines\application.mvcextensions.tests\bin\debug\application.mvcextensions.tests.dll" id="06ea11f1-bef8-c99d-b64c-ac3d7ba03561">
+      <Execution id="86e900f7-43ae-4e87-9f72-23649e4b53e3" />
+      <TestMethod codeBase="C:/Users/bmiller/ASP.NET-MVC-Mobile-Capable-View-Engines/Application.MVCExtensions.Tests/bin/Debug/Application.MVCExtensions.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Application.MVCExtensions.Tests.MobileCapableWebFormViewEngineFixture, Application.MVCExtensions.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindViewReturnsSpecificMobileViewPath" />
+    </UnitTest>
+    <UnitTest name="FindViewReturnsDesktopViewPathWhenSpecificMobileFolderAndSharedMobileFolderNotExists" storage="c:\users\bmiller\asp.net-mvc-mobile-capable-view-engines\application.mvcextensions.tests\bin\debug\application.mvcextensions.tests.dll" id="26ca33dd-8dd6-2d1c-3848-8b1bcf9b63d6">
+      <Execution id="b3598a2a-7dc0-4220-8e74-7cf00b2ae414" />
+      <TestMethod codeBase="C:/Users/bmiller/ASP.NET-MVC-Mobile-Capable-View-Engines/Application.MVCExtensions.Tests/bin/Debug/Application.MVCExtensions.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Application.MVCExtensions.Tests.MobileCapableWebFormViewEngineFixture, Application.MVCExtensions.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindViewReturnsDesktopViewPathWhenSpecificMobileFolderAndSharedMobileFolderNotExists" />
+    </UnitTest>
+    <UnitTest name="FindViewReturnsDesktopViewPath" storage="c:\users\bmiller\asp.net-mvc-mobile-capable-view-engines\application.mvcextensions.tests\bin\debug\application.mvcextensions.tests.dll" id="14d5c3cd-b1dd-8c6f-29a0-cf748dc25bce">
+      <Execution id="9fed3d5c-2d42-4f5a-85bf-9338a2036316" />
+      <TestMethod codeBase="C:/Users/bmiller/ASP.NET-MVC-Mobile-Capable-View-Engines/Application.MVCExtensions.Tests/bin/Debug/Application.MVCExtensions.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Application.MVCExtensions.Tests.MobileCapableRazorViewEngineFixture, Application.MVCExtensions.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindViewReturnsDesktopViewPath" />
+    </UnitTest>
+    <UnitTest name="FindViewReturnsSharedMobileViewPathWhenSpecificMobileFolderNotExists" storage="c:\users\bmiller\asp.net-mvc-mobile-capable-view-engines\application.mvcextensions.tests\bin\debug\application.mvcextensions.tests.dll" id="05a17778-cdff-7d54-5b16-cadb7db34dff">
+      <Execution id="a0fe8e1a-efe9-41c7-a737-f94721d4e4e0" />
+      <TestMethod codeBase="C:/Users/bmiller/ASP.NET-MVC-Mobile-Capable-View-Engines/Application.MVCExtensions.Tests/bin/Debug/Application.MVCExtensions.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Application.MVCExtensions.Tests.MobileCapableWebFormViewEngineFixture, Application.MVCExtensions.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindViewReturnsSharedMobileViewPathWhenSpecificMobileFolderNotExists" />
+    </UnitTest>
+    <UnitTest name="FindViewReturnsSpecificMobileViewPath" storage="c:\users\bmiller\asp.net-mvc-mobile-capable-view-engines\application.mvcextensions.tests\bin\debug\application.mvcextensions.tests.dll" id="87c7a14e-314b-c75f-b193-e7031327d783">
+      <Execution id="227cb8e9-a44b-40cd-bc09-1ecb77462618" />
+      <TestMethod codeBase="C:/Users/bmiller/ASP.NET-MVC-Mobile-Capable-View-Engines/Application.MVCExtensions.Tests/bin/Debug/Application.MVCExtensions.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Application.MVCExtensions.Tests.MobileCapableRazorViewEngineFixture, Application.MVCExtensions.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindViewReturnsSpecificMobileViewPath" />
+    </UnitTest>
+    <UnitTest name="FindViewReturnsSharedMobileViewPath" storage="c:\users\bmiller\asp.net-mvc-mobile-capable-view-engines\application.mvcextensions.tests\bin\debug\application.mvcextensions.tests.dll" id="9b1e3ff5-5041-f8fe-88fc-e8dc175b189b">
+      <Execution id="93f38b3d-70b3-40c8-afc0-eb87ac4014aa" />
+      <TestMethod codeBase="C:/Users/bmiller/ASP.NET-MVC-Mobile-Capable-View-Engines/Application.MVCExtensions.Tests/bin/Debug/Application.MVCExtensions.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Application.MVCExtensions.Tests.MobileCapableWebFormViewEngineFixture, Application.MVCExtensions.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindViewReturnsSharedMobileViewPath" />
+    </UnitTest>
+    <UnitTest name="FindViewReturnsSharedMobileViewPathWhenSpecificMobileFolderNotExists" storage="c:\users\bmiller\asp.net-mvc-mobile-capable-view-engines\application.mvcextensions.tests\bin\debug\application.mvcextensions.tests.dll" id="6dfc464c-84fa-fa54-85aa-6887a98c49c4">
+      <Execution id="d881a090-992c-4e17-93f9-2d5c3622704e" />
+      <TestMethod codeBase="C:/Users/bmiller/ASP.NET-MVC-Mobile-Capable-View-Engines/Application.MVCExtensions.Tests/bin/Debug/Application.MVCExtensions.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Application.MVCExtensions.Tests.MobileCapableRazorViewEngineFixture, Application.MVCExtensions.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindViewReturnsSharedMobileViewPathWhenSpecificMobileFolderNotExists" />
+    </UnitTest>
+    <UnitTest name="FindViewReturnsDesktopViewPath" storage="c:\users\bmiller\asp.net-mvc-mobile-capable-view-engines\application.mvcextensions.tests\bin\debug\application.mvcextensions.tests.dll" id="f50390d4-1197-32bf-b197-c0cd06aa824c">
+      <Execution id="225c7a9b-dd4b-470a-af1e-5cece650631c" />
+      <TestMethod codeBase="C:/Users/bmiller/ASP.NET-MVC-Mobile-Capable-View-Engines/Application.MVCExtensions.Tests/bin/Debug/Application.MVCExtensions.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Application.MVCExtensions.Tests.MobileCapableWebFormViewEngineFixture, Application.MVCExtensions.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindViewReturnsDesktopViewPath" />
+    </UnitTest>
+    <UnitTest name="FindViewReturnsDesktopViewPathWhenSpecificMobileFolderAndSharedMobileFolderNotExists" storage="c:\users\bmiller\asp.net-mvc-mobile-capable-view-engines\application.mvcextensions.tests\bin\debug\application.mvcextensions.tests.dll" id="efcd2410-76c7-6efb-3bd5-124ccb2bf3d1">
+      <Execution id="d9e4a4ee-d9ab-4def-9088-e5fdc7924b2a" />
+      <TestMethod codeBase="C:/Users/bmiller/ASP.NET-MVC-Mobile-Capable-View-Engines/Application.MVCExtensions.Tests/bin/Debug/Application.MVCExtensions.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Application.MVCExtensions.Tests.MobileCapableRazorViewEngineFixture, Application.MVCExtensions.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindViewReturnsDesktopViewPathWhenSpecificMobileFolderAndSharedMobileFolderNotExists" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="05a17778-cdff-7d54-5b16-cadb7db34dff" executionId="a0fe8e1a-efe9-41c7-a737-f94721d4e4e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="06ea11f1-bef8-c99d-b64c-ac3d7ba03561" executionId="86e900f7-43ae-4e87-9f72-23649e4b53e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="14d5c3cd-b1dd-8c6f-29a0-cf748dc25bce" executionId="9fed3d5c-2d42-4f5a-85bf-9338a2036316" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="26ca33dd-8dd6-2d1c-3848-8b1bcf9b63d6" executionId="b3598a2a-7dc0-4220-8e74-7cf00b2ae414" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6dfc464c-84fa-fa54-85aa-6887a98c49c4" executionId="d881a090-992c-4e17-93f9-2d5c3622704e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87c7a14e-314b-c75f-b193-e7031327d783" executionId="227cb8e9-a44b-40cd-bc09-1ecb77462618" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b1e3ff5-5041-f8fe-88fc-e8dc175b189b" executionId="93f38b3d-70b3-40c8-afc0-eb87ac4014aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db02e4c0-2982-25e2-7b8b-b5c6d6cb128a" executionId="19f956bc-71e4-48aa-bc12-631586b99bef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="efcd2410-76c7-6efb-3bd5-124ccb2bf3d1" executionId="d9e4a4ee-d9ab-4def-9088-e5fdc7924b2a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f50390d4-1197-32bf-b197-c0cd06aa824c" executionId="225c7a9b-dd4b-470a-af1e-5cece650631c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a0fe8e1a-efe9-41c7-a737-f94721d4e4e0" testId="05a17778-cdff-7d54-5b16-cadb7db34dff" testName="FindViewReturnsSharedMobileViewPathWhenSpecificMobileFolderNotExists" computerName="COEUS" duration="00:00:00.7571609" startTime="2011-05-07T09:12:09.3681320-07:00" endTime="2011-05-07T09:12:10.5242476-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0fe8e1a-efe9-41c7-a737-f94721d4e4e0">
+    </UnitTestResult>
+    <UnitTestResult executionId="86e900f7-43ae-4e87-9f72-23649e4b53e3" testId="06ea11f1-bef8-c99d-b64c-ac3d7ba03561" testName="FindViewReturnsSpecificMobileViewPath" computerName="COEUS" duration="00:00:00.0039321" startTime="2011-05-07T09:12:10.5272479-07:00" endTime="2011-05-07T09:12:10.5362488-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86e900f7-43ae-4e87-9f72-23649e4b53e3">
+    </UnitTestResult>
+    <UnitTestResult executionId="9fed3d5c-2d42-4f5a-85bf-9338a2036316" testId="14d5c3cd-b1dd-8c6f-29a0-cf748dc25bce" testName="FindViewReturnsDesktopViewPath" computerName="COEUS" duration="00:00:00.0045985" startTime="2011-05-07T09:12:10.5392491-07:00" endTime="2011-05-07T09:12:10.5472499-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9fed3d5c-2d42-4f5a-85bf-9338a2036316">
+    </UnitTestResult>
+    <UnitTestResult executionId="b3598a2a-7dc0-4220-8e74-7cf00b2ae414" testId="26ca33dd-8dd6-2d1c-3848-8b1bcf9b63d6" testName="FindViewReturnsDesktopViewPathWhenSpecificMobileFolderAndSharedMobileFolderNotExists" computerName="COEUS" duration="00:00:00.0024547" startTime="2011-05-07T09:12:10.5502502-07:00" endTime="2011-05-07T09:12:10.5572509-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3598a2a-7dc0-4220-8e74-7cf00b2ae414">
+    </UnitTestResult>
+    <UnitTestResult executionId="d881a090-992c-4e17-93f9-2d5c3622704e" testId="6dfc464c-84fa-fa54-85aa-6887a98c49c4" testName="FindViewReturnsSharedMobileViewPathWhenSpecificMobileFolderNotExists" computerName="COEUS" duration="00:00:00.0026857" startTime="2011-05-07T09:12:10.5612513-07:00" endTime="2011-05-07T09:12:10.5672519-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d881a090-992c-4e17-93f9-2d5c3622704e">
+    </UnitTestResult>
+    <UnitTestResult executionId="227cb8e9-a44b-40cd-bc09-1ecb77462618" testId="87c7a14e-314b-c75f-b193-e7031327d783" testName="FindViewReturnsSpecificMobileViewPath" computerName="COEUS" duration="00:00:00.0025017" startTime="2011-05-07T09:12:10.5702522-07:00" endTime="2011-05-07T09:12:10.5762528-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="227cb8e9-a44b-40cd-bc09-1ecb77462618">
+    </UnitTestResult>
+    <UnitTestResult executionId="93f38b3d-70b3-40c8-afc0-eb87ac4014aa" testId="9b1e3ff5-5041-f8fe-88fc-e8dc175b189b" testName="FindViewReturnsSharedMobileViewPath" computerName="COEUS" duration="00:00:00.0024628" startTime="2011-05-07T09:12:10.5802532-07:00" endTime="2011-05-07T09:12:10.5852537-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="93f38b3d-70b3-40c8-afc0-eb87ac4014aa">
+    </UnitTestResult>
+    <UnitTestResult executionId="19f956bc-71e4-48aa-bc12-631586b99bef" testId="db02e4c0-2982-25e2-7b8b-b5c6d6cb128a" testName="FindViewReturnsSharedMobileViewPath" computerName="COEUS" duration="00:00:00.0024872" startTime="2011-05-07T09:12:10.5882540-07:00" endTime="2011-05-07T09:12:10.5942546-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19f956bc-71e4-48aa-bc12-631586b99bef">
+    </UnitTestResult>
+    <UnitTestResult executionId="d9e4a4ee-d9ab-4def-9088-e5fdc7924b2a" testId="efcd2410-76c7-6efb-3bd5-124ccb2bf3d1" testName="FindViewReturnsDesktopViewPathWhenSpecificMobileFolderAndSharedMobileFolderNotExists" computerName="COEUS" duration="00:00:00.0025296" startTime="2011-05-07T09:12:10.5972549-07:00" endTime="2011-05-07T09:12:10.6032555-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9e4a4ee-d9ab-4def-9088-e5fdc7924b2a">
+    </UnitTestResult>
+    <UnitTestResult executionId="225c7a9b-dd4b-470a-af1e-5cece650631c" testId="f50390d4-1197-32bf-b197-c0cd06aa824c" testName="FindViewReturnsDesktopViewPath" computerName="COEUS" duration="00:00:00.0024004" startTime="2011-05-07T09:12:10.6062558-07:00" endTime="2011-05-07T09:12:10.6122564-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="225c7a9b-dd4b-470a-af1e-5cece650631c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

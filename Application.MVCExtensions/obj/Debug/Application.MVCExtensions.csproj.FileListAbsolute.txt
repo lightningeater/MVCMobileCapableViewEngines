@@ -1,0 +1,15 @@
+C:\Projects\vs2010\Irvine\Apartments\Main\Application.MVCExtensions\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\vs2010\Irvine\Apartments\Main\Application.MVCExtensions\bin\Debug\Application.MVCExtensions.dll
+C:\Projects\vs2010\Irvine\Apartments\Main\Application.MVCExtensions\bin\Debug\Application.MVCExtensions.pdb
+C:\Projects\vs2010\Irvine\Apartments\Main\Application.MVCExtensions\obj\Debug\Application.MVCExtensions.dll
+C:\Projects\vs2010\Irvine\Apartments\Main\Application.MVCExtensions\obj\Debug\Application.MVCExtensions.pdb
+C:\Users\bmiller\ASP.NET-MVC-Mobile-Capable-View-Engines\Application.MVCExtensions\bin\Debug\Application.MVCExtensions.dll
+C:\Users\bmiller\ASP.NET-MVC-Mobile-Capable-View-Engines\Application.MVCExtensions\bin\Debug\Application.MVCExtensions.pdb
+C:\Users\bmiller\ASP.NET-MVC-Mobile-Capable-View-Engines\Application.MVCExtensions\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bmiller\ASP.NET-MVC-Mobile-Capable-View-Engines\Application.MVCExtensions\obj\Debug\Application.MVCExtensions.dll
+C:\Users\bmiller\ASP.NET-MVC-Mobile-Capable-View-Engines\Application.MVCExtensions\obj\Debug\Application.MVCExtensions.pdb
+C:\Users\bmiller\MVCMobileCapableViewEngines\Application.MVCExtensions\bin\Debug\Application.MVCExtensions.dll
+C:\Users\bmiller\MVCMobileCapableViewEngines\Application.MVCExtensions\bin\Debug\Application.MVCExtensions.pdb
+C:\Users\bmiller\MVCMobileCapableViewEngines\Application.MVCExtensions\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bmiller\MVCMobileCapableViewEngines\Application.MVCExtensions\obj\Debug\Application.MVCExtensions.dll
+C:\Users\bmiller\MVCMobileCapableViewEngines\Application.MVCExtensions\obj\Debug\Application.MVCExtensions.pdb
