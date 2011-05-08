@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.MVCExtensions",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.MVCExtensions.Tests", "Application.MVCExtensions.Tests\Application.MVCExtensions.Tests.csproj", "{53B244E1-CE2E-4E04-8ED6-0EA73FFE0DEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileCapableDeviceSpecificMvcApplication", "MobileCapableDeviceSpecificMvcApplication\MobileCapableDeviceSpecificMvcApplication.csproj", "{AC763CDB-B856-43FF-8D0A-F8767D04506A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileCapableCapabilitiesSpecificMvcApplication", "MobileCapableCapabilitiesSpecificMvcApplication\MobileCapableCapabilitiesSpecificMvcApplication.csproj", "{42AE888C-95CA-4408-9718-127132436722}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,14 @@ Global
 		{53B244E1-CE2E-4E04-8ED6-0EA73FFE0DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53B244E1-CE2E-4E04-8ED6-0EA73FFE0DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53B244E1-CE2E-4E04-8ED6-0EA73FFE0DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC763CDB-B856-43FF-8D0A-F8767D04506A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC763CDB-B856-43FF-8D0A-F8767D04506A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC763CDB-B856-43FF-8D0A-F8767D04506A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC763CDB-B856-43FF-8D0A-F8767D04506A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42AE888C-95CA-4408-9718-127132436722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42AE888C-95CA-4408-9718-127132436722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42AE888C-95CA-4408-9718-127132436722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42AE888C-95CA-4408-9718-127132436722}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

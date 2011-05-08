@@ -6,12 +6,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{AC763CDB-B856-43FF-8D0A-F8767D04506A}</ProjectGuid>
+    <ProjectGuid>{42AE888C-95CA-4408-9718-127132436722}</ProjectGuid>
     <ProjectTypeGuids>{E53F8FEA-EAE0-44A6-8774-FFD645390401};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MobileCapableDeviceSpecificMvcApplication</RootNamespace>
-    <AssemblyName>MobileCapableDeviceSpecificMvcApplication</AssemblyName>
+    <RootNamespace>MobileCapableCapabilitiesSpecificMvcApplication</RootNamespace>
+    <AssemblyName>MobileCapableCapabilitiesSpecificMvcApplication</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>false</UseIISExpress>
@@ -153,10 +153,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Shared\Mobile\iPhone\_LogOnPartial.cshtml" />
+    <Content Include="Views\Shared\Mobile\WebKit\_LogOnPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Home\Mobile\iPhone\Index.cshtml" />
+    <Content Include="Views\Home\Mobile\WebKit\Index.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
@@ -175,7 +175,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>55089</DevelopmentServerPort>
+          <DevelopmentServerPort>59145</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>
